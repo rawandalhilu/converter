@@ -1,1 +1,111 @@
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    direction: rtl;
+    text-align: right;
+}
+
+.converter-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 1.5em;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+}
+
+#kilometersInput {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; 
+    font-size: 1em;
+}
+
+.buttons-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 25px;
+}
+
+button {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    font-size: 1em;
+}
+
+#convertButton {
+    background-color: #007bff;
+    color: white;
+}
+
+#convertButton:hover {
+    background-color: #0056b3;
+}
+
+#clearButton {
+    background-color: #6c757d;
+    color: white;
+}
+
+#clearButton:hover {
+    background-color: #5a6268;
+}
+
+.result-area {
+    text-align: center;
+    padding: 15px;
+    border: 2px dashed #ddd;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+.result-area h2 {
+    color: #333;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#milesResult {
+    font-size: 1.8em;
+    color: #28a745; 
+    font-weight: bolder;
+    margin-top: 5px;
+}
+
+.error-text {
+    color: #dc3545;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 15px;
+    height: 1.2em; 
+}
